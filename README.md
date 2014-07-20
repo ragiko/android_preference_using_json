@@ -9,10 +9,10 @@ preferenceにjsonのデータ形式で入出力
 保存したオブジェクトのリストを取得する 
 
 ##参考URL
-(preference)
+(preference)  
 http://androidhacker.blog94.fc2.com/blog-entry-88.html
 
-(json : gson)
+(json : gson)  
 http://stackoverflow.com/questions/5554217/google-gson-deserialize-listclass-object-generic-type
 http://stackoverflow.com/questions/14258640/hash-map-array-list-to-json-array-in-android
 
