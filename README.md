@@ -2,10 +2,11 @@
 preferenceにjsonのデータ形式で入出力  
 
 #詳細
-##Save to preference 
+###Save to preference 
 * 保存したいオブジェクトのリストをJSON形式でString型にする
 * String型をPreferenceで保存
-##Get from preference
+
+###Get from preference
 保存したオブジェクトのリストを取得する 
 
 ##参考URL
