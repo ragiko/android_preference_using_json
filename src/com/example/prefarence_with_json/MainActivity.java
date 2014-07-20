@@ -42,7 +42,6 @@ import com.google.gson.Gson;
 
 public class MainActivity extends Activity implements OnClickListener {
 
-	Context mContext;
 	String PREFERENCE_KEY = "test";
 	Button saveBtn, showBtn;
 
