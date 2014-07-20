@@ -51,8 +51,6 @@ public class MainActivity extends Activity implements OnClickListener {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-		mContext = getApplicationContext();
-
 		// Button
 		saveBtn = (Button) findViewById(R.id.save);
 		saveBtn.setOnClickListener(this);
@@ -85,7 +83,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	 */
 	public void save() {
 		SharedPreferences sp = PreferenceManager
-				.getDefaultSharedPreferences(mContext);
+				.getDefaultSharedPreferences(this);
 		SharedPreferences.Editor editor = sp.edit();
 		editor.putString(PREFERENCE_KEY, makeJsonString()).commit();
 	}
