@@ -44,7 +44,6 @@ public class MainActivity extends Activity implements OnClickListener {
 
 	Context mContext;
 	String PREFERENCE_KEY = "test";
-	String[] strs = { "hoge", "piyo" };
 	Button saveBtn, showBtn;
 
 	@Override
@@ -105,7 +104,6 @@ public class MainActivity extends Activity implements OnClickListener {
 		Item[] mcArray = new Gson().fromJson(json, Item[].class);
 		List<Item> list = Arrays.asList(mcArray);
 		
-		// test用に初期listだけ取得
 		for (Item item : list) {
 			System.out.println("price = " + item.getPrice());
 			System.out.println("quantity = " + item.getQuantity());
